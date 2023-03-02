@@ -59,7 +59,7 @@ $browser-context: 16; // Default
   display: block;
 }
 
-@mixin flex-column-start {
+@mixin flex-column-start() {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
